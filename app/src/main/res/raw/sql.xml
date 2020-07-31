@@ -1,0 +1,28 @@
+<sql>
+    <statement>
+        CREATE TABLE IF NOT EXISTS lifelineDrug (
+        _id INTEGER PRIMARY KEY AUTOINCREMENT,
+        drugName VARCHAR(50),
+        price VARCHAR(10),
+        pharmaName VARCHAR(50),
+        address VARCHAR(200),
+        distance VARCHAR(50),
+        symtoms VARCHAR(100),
+        city VARCHAR(50),
+        pincode VARCHAR(10),
+        officePhone VARCHAR(30),
+        cellPhone VARCHAR(30),
+        email VARCHAR(30))
+    </statement>
+    <statement>INSERT INTO lifelineDrug VALUES(1,'Adderall','Rs.100','ABC Pharmacy', 'Saltlake', '1km' , 'fever', 'kolkata','700109','570-222-3333','570-222-3333','ryan@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(2,'Lexapro','Rs.50','XYZ Pharmacy','Dumdum', '0.5km' ,'back pain','kolkata','700111','570-222-3333','570-222-3333','michael@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(3,'Adderall','Rs.105','XYZ Pharmacy','Behala', '5km' ,'cold','bangalore','560071','570-333-3333','570-222-3333','dwight@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(4,'Ibuprofen','Rs.150','CCC Pharmacy','Agarpara', '2km' ,'headache','mumbai','400001','570-999-1212','570-222-3333','jim@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(5,'Lexapro','Rs.45','ABC Pharmacy','Sodepur', '2.1km' ,'fever','kolkata','700004','570-222-3333','570-222-3333','pam@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(6,'Ativan','Rs.220','CCC Pharmacy','Agarpara', '4km' ,'cold','kolkata','700056','570-999-3232','570-222-3333','angela@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(7,'Lexapro','Rs.150','XYZ Pharmacy','Behala', '5km' ,'back pain','kolkata','700111','570-222-3333','570-222-3333','michael@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(8,'Adderall','Rs.135','XYZ Pharmacy','Saltlake', '3km' ,'cold','bangalore','560071','570-333-3333','570-222-3333','dwight@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(9,'Ibuprofen','Rs.10','CCC Pharmacy','Barrackpore', '250mtr' ,'headache','mumbai','400001','570-999-1212','570-222-3333','jim@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(10,'Lexapro','Rs.55','ABC Pharmacy','Sealdah', '10km' ,'fever','kolkata','700004','570-222-3333','570-222-3333','pam@dundermifflin.com')</statement>
+    <statement>INSERT INTO lifelineDrug VALUES(11,'Ativan','Rs.230','DDD Pharmacy','Saltlake', '3km' ,'cold','kolkata','700056','570-999-3232','570-222-3333','angela@dundermifflin.com')</statement>
+</sql>
